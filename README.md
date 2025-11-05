@@ -1,16 +1,15 @@
-# 🫁 Lung Segmentation using Medical Transformer (MedT)
+#  Lung Segmentation using Medical Transformer (MedT)
 
 Automated **lung segmentation** from chest X-ray images using a **Medical Transformer (MedT)** deep learning model.  
 This project demonstrates the use of transformer-based architectures for **medical image segmentation**, achieving superior results compared to traditional CNN models like U-Net or SegNet.
 
 ---
 
-## 👩‍💻 Team Members
+##  Team Members
 - **Janapareddy Vidya Varshini** – 230041013  
 - **Korubilli Vaishnavi** – 230041016  
 - **Mullapudi Namaswi** – 230041023  
 
-📂 **GitHub Repository:** [https://github.com/Namaswi24/Lung-Segmentation](https://github.com/Namaswi24/Lung-Segmentation)
 
 ---
 
@@ -24,7 +23,7 @@ Manual segmentation is time-consuming and prone to human error — hence, an aut
 
 ---
 
-## 📁 Dataset Structure
+##  Dataset Structure
 
 ### Dataset Info
 - Total images: **800**
@@ -51,7 +50,7 @@ Implemented through the `ChestXrayDataset` class:
 
 ---
 
-## 🧠 Model Architecture — Medical Transformer (MedT)
+## Model Architecture — Medical Transformer (MedT)
 
 MedT addresses the limitations of CNNs (poor long-range context) and vanilla Transformers (poor local detail).
 
@@ -101,18 +100,18 @@ MedT addresses the limitations of CNNs (poor long-range context) and vanilla Tra
 
 ---
 
-## 🖥️ Web Application Deployment
+##  Web Application Deployment
 
 A **Flask-based web interface** was built to make the segmentation model accessible.
 
-### 🌐 Features
+###  Features
 - Upload chest X-ray image (`.png`)
 - Model performs segmentation and returns mask
 - Displays original + segmented output side by side
 - Responsive UI built with **HTML, CSS, JavaScript**
 - Backend uses **Flask** and pre-trained MedT model
 
-### 🧭 Run the Web App
+###  Run the Web App
 ```bash
 # Clone the repository
 git clone https://github.com/Namaswi24/Lung-Segmentation.git
