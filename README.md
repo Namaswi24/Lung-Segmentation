@@ -13,7 +13,7 @@ This project demonstrates the use of transformer-based architectures for **medic
 
 ---
 
-## 🧩 Problem Statement
+## Problem Statement
 
 > Develop an automated system to segment lung regions from chest X-ray (CXR) images using the **Medical Transformer (MedT)** model.  
 > The goal is to build an accurate and efficient segmentation model capable of delineating lung regions with minimal supervision.
@@ -54,7 +54,7 @@ Implemented through the `ChestXrayDataset` class:
 
 MedT addresses the limitations of CNNs (poor long-range context) and vanilla Transformers (poor local detail).
 
-### 🧩 Key Components
+###  Key Components
 1. **Gated Axial Attention (GAA):**
    - Decomposes 2D attention into two 1D attentions (height & width).
    - Introduces *learnable gates* for positional encoding.
@@ -67,7 +67,7 @@ MedT addresses the limitations of CNNs (poor long-range context) and vanilla Tra
 
 ---
 
-## ⚙️ Experimental Setup
+##  Experimental Setup
 
 | Parameter | Value |
 |------------|--------|
@@ -84,7 +84,7 @@ MedT addresses the limitations of CNNs (poor long-range context) and vanilla Tra
 
 ---
 
-## 🧪 Results & Observations
+##  Results & Observations
 
 - Best model achieved after **19th epoch**
 - Evaluated on the **test set**
